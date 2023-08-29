@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    padding-bottom: 140px;
 }
 
 .title {
@@ -23,10 +25,53 @@
 .card {
     max-width: 395px;
     border: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    max-width: 360px;
+    width: 100%;
+    max-height: 552px;
+
+    padding: 34px 12px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .alc, .og, .ibu {
     color: $secondary;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.type {
+    color: $secondary;
+    text-align: start;
+    font-size: 14px;
+    text-transform: none;
+
+    padding-top: 14px;
+    padding-bottom: 5px;
+
+    position: relative;
+
+    &::after {
+        content: "0.5 L";
+
+        position: absolute;
+        left: 240px;
+
+        color: $white;
+        text-align: center;
+        font-weight: 500;
+    }
+}
+
+.strctr{
+    display: flex;
+    gap: 14px;
 }
