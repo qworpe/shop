@@ -1,0 +1,25 @@
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.logo {
+    padding: 0 50px;
+}
+
+.lang {
+    font-family: $accent-font;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.basket {
+    padding-left: 50px;
+}

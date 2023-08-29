@@ -1,0 +1,32 @@
+.card-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: $accent-font;
+    font-size: 64px;
+    padding-top: 140px;
+    padding-bottom: 60px;
+
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 395px));
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    max-width: 395px;
+    border: 1px solid #C4C4C4;
+}
+
+.alc, .og, .ibu {
+    color: $secondary;
+    text-align: center;
+    font-size: 16px;
+}
