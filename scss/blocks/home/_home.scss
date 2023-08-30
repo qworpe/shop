@@ -1,6 +1,8 @@
 .header {
     padding-top: 26px;
     min-width: 1404px;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .header-top-row {

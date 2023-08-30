@@ -1,11 +1,40 @@
 .header-nav {
     display: flex;
     align-items: center;
+
+    @include mediaTablet {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.nav-list-head {
+    display: flex;
+    column-gap: 30px;
+
+    @include mediaLaptop {
+        font-size: 16px;
+    }
+
+    @include mediaTablet {
+        display: none;
+    }    
 }
 
 .nav-list {
     display: flex;
     column-gap: 30px;
+
+    @include mediaLaptop {
+        font-size: 16px;
+    }
+
+    @include mediaTablet {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 20px;
+    }
 }
 
 .logo {
