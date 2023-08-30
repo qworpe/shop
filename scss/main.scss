@@ -4,14 +4,18 @@
 @import './base/base';
 
 //home
-@import './home/home';
-@import './home/nav';
+@import './blocks/home/home';
+@import './blocks/home/nav';
 
 //shop
-@import './shop/card';
+@import './blocks/shop/card';
 
 //delivery
-@import './delivery/delivery';
+@import './blocks/delivery/delivery';
 
 //about
-@import './about/about';
+@import './blocks/about/about';
+
+//contact
+@import './blocks/contact/contact';
+@import './blocks/contact/form';
