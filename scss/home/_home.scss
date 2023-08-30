@@ -43,6 +43,11 @@
     align-items: center;
     gap: 10px;
     border: 2px solid #C4C4C4;
+    transition: 0.5s;
+
+    &:hover {
+        opacity: 0.7;
+    }
 }
 
 .border {
