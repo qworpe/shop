@@ -4,20 +4,6 @@
 @import './base/mixins';
 @import './base/base';
 
-//home
-@import './blocks/home/home';
-@import './blocks/home/nav';
-@import './blocks/home/nav-icon';
-
-//shop
-@import './blocks/shop/card';
-
-//delivery
-@import './blocks/delivery/delivery';
-
-//about
-@import './blocks/about/about';
-
-//contact
-@import './blocks/contact/contact';
-@import './blocks/contact/form';
+//blocks
+@import './blocks/nav';
+@import './blocks/footer';

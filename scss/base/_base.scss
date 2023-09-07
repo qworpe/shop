@@ -242,11 +242,11 @@
 
 body {
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
     font-family: $main-font;
     background-color: #000;
     text-transform: uppercase;
-    font-weight: 400;
+    min-height: 100vh;
     
     a {
         color: #fff;
@@ -257,20 +257,21 @@ body {
             color: #BEBEBE;
         }
     }
-
-    section {
-        width: 100%;
-    }
 }
 
 
 .container {
-    max-width: 1570px;
-    width: 100%;
-    padding: 0 15px;
     margin: 0 auto;
+    max-width: 1400px;
+    min-width: 999px;
+    padding: 0 15px;
+
+    @include mediaTablet {
+        max-width: 800px;
+    }
 }
 
 .none {
     display: none;
 }
+

@@ -1,0 +1,40 @@
+footer {
+    text-align: center;
+    border-top: 1px solid  #C4C4C4;
+
+    margin-top: 140px;
+    margin-bottom: auto;
+    padding-bottom: 80px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.socials {
+    display: flex;
+    gap: 14px;
+}
+
+.bank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding-top: 60px;
+}

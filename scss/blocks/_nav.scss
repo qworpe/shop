@@ -1,0 +1,19 @@
+.header-nav-block {
+        border-bottom: 1px solid #C4C4C4;
+    background: #000;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 26px 0;
+}   
+
+.nav-list-head {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
