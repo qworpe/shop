@@ -241,9 +241,13 @@ body a {
 body a:hover {
   color: #BEBEBE;
 }
+body section {
+  width: 100%;
+}
 
 .container {
-  max-width: 1600px;
+  max-width: 1570px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -260,8 +264,6 @@ body a:hover {
 }
 
 .header-top-row {
-  display: flex;
-  justify-content: center;
   padding-bottom: 25px;
 }
 
@@ -283,7 +285,9 @@ body a:hover {
 .mid {
   display: flex;
   flex-direction: column;
-  row-gap: 80px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
 }
 
 .shop-button {
@@ -338,12 +342,6 @@ body a:hover {
 .header-nav {
   display: flex;
   align-items: center;
-}
-@media screen and (max-width: 999px) {
-  .header-nav {
-    display: flex;
-    justify-content: space-around;
-  }
 }
 
 .nav-list-head {
